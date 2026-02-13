@@ -1,0 +1,39 @@
+# --- Core Web Framework ---
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# --- AWS SDK ---
+boto3==1.35.30
+botocore==1.35.30
+
+# --- Authentication & Security ---
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.0
+
+# --- Google OAuth ---
+google-auth==2.35.0
+
+# --- HTTP & Utils ---
+requests==2.32.3
+pydantic==2.9.2
+
+# --- LangChain / RAG ---
+langchain==0.3.3
+langchain-core
+langchain-groq
+langchain-community
+fastapi
+uvicorn
+sentence-transformers
+httpx
+python-dotenv
+groq==0.8.0
+
+# --- (Optional) Dev & Typing helpers ---
+typing-extensions==4.12.2
+
+langgraph
+langgraph-checkpoint-redis
+redis
+pypdf
