@@ -1,5 +1,4 @@
-Readme · MD
-Copy
+
 
 # ⚖️ LexAssist — AI Legal Research & Drafting Assistant
 
@@ -9,8 +8,6 @@ Copy
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-blueviolet?style=flat)](https://langchain-ai.github.io/langgraph/)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-
 ---
 
 ## 🌟 Overview
