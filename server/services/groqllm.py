@@ -12,7 +12,7 @@ class GroqLLM:
             api_key: Groq API key (or set GROQ_API_KEY environment variable)
         """
         self.model_name = model_name
-        self.api_key = api_key or os.environ.get("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")
+        self.api_key = api_key or os.environ.get("groq_api_key")
 
         if not self.api_key:
             raise ValueError("Groq API key is required. Set GROQ_API_KEY environment variable or pass api_key parameter.")

@@ -1,11 +1,12 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain_core.messages import HumanMessage
+from server.services.configuration import get_api_key
 
 def call_llm_for_index_level(document):
   try:
     model_name = "meta-llama/llama-4-maverick-17b-128e-instruct"
-    api_key = "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"
+    api_key = get_api_key()  # Implement this function to retrieve your API key securely
     llm = ChatGroq(
             groq_api_key=api_key,
             model_name=model_name,

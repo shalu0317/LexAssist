@@ -1,2 +1,7 @@
+from dotevn import load_dotenv
+import os
+
+load_dotenv()  # Load environment variables from .env file
+
 def get_api_key():
-    return "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"
+    return os.getenv("groq_api_key")

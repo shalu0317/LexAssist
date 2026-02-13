@@ -21,5 +21,4 @@ def load_env(path=".env"):
             os.environ[key] = value
 
 def get_api_key():
-    # return os.environ.get("groq_api_key")
-    return "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"
+    return os.environ.get("groq_api_key")
